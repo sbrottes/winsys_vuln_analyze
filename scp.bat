@@ -3,7 +3,8 @@ setlocal ENABLEDELAYEDEXPANSION
 set CONSOLE_MODE=1
 
 
-call :test_vuln_env_path
+REM call :test_vuln_env_path
+call :test_vuln_scheduled_tasks
 
 pause
 goto :eof
@@ -16,8 +17,8 @@ REM Return 1 if at least one path is writable, 0 else. Return -1 if something wr
 :test_vuln_env_path
 	setlocal
 	set MODULE_NAME=TEST_ENV_PATH_TEST
-	set START_FLAG=####################   STARTING PATH VAR ANALYSE   #####################
-	set END_FLAG=#####################   END OF PATH VAR ANALYSE   #####################
+	set START_FLAG=####################   STARTING PATH VAR ANALYZE   #####################
+	set END_FLAG=#####################   END OF PATH VAR ANALYZE   #####################
 	set allPathProcessed=true
 	set /A it=1
 	
@@ -36,9 +37,9 @@ REM Return 1 if at least one path is writable, 0 else. Return -1 if something wr
 	endlocal
 	EXIT /B 0
 	:end_test_vuln_env_path
-	call :error_log_module "%MODULE_NAME%" "Error when calling the module"
-	endlocal
-	EXIT /B -1
+		call :error_log_module "%MODULE_NAME%" "Error when calling the module"
+		endlocal
+		EXIT /B -1
 
 
 REM Test if group of criticals path are writable
@@ -62,6 +63,57 @@ REM Return 1 if at least one path is writable, 0 else. Return -1 if something wr
 	endlocal
 	EXIT /B -1
 	
+	
+
+REM  Test if the path use for scheduled tasks are writable 
+:test_vuln_scheduled_tasks
+	setlocal
+	set MODULE_NAME=TEST_SCHEDULED_TASKS
+	set START_FLAG=####################   STARTING SCHEDULED TASKS ANALYZE   #####################
+	set END_FLAG=#####################   END OF SCHEDULED TASKS ANALYZE   #####################
+	set FILE_PATH=sch_analyse.txt
+	if %CONSOLE_MODE%==1 echo %START_FLAG%
+	schtasks /Query /XML | findstr /R "^.*<Command>.*$" >%FILE_PATH%
+	for /F "delims=" %%i IN (sch_analyse.txt) do (
+		set path_to_clear=%%i
+		set path_to_clear=!path_to_clear:   =!
+		set path_to_clear=!path_to_clear:^<Command^>=!
+		set path_to_clear=!path_to_clear:^</Command^>=!
+		set path_task=!path_to_clear:"=!
+		REM RAF/TODO : Suppression du nom de fichier pour tester le chemin
+		REM ================
+		REM ICI
+		REM ================
+		call :test_write_rights "!path_task!"
+		call :process_scan_results_module "%MODULE_NAME%" "!path_task!" "!ERRORLEVEL!"
+	)
+	REM del %FILE_PATH%
+	if %CONSOLE_MODE%==1 echo %END_FLAG%
+	endlocal
+	EXIT /B 0
+	:end_test_vuln_modulename
+	call :error_log_module "%MODULE_NAME%" "Error when calling the module"
+	endlocal
+	EXIT /B -1
+
+
+
+	
+REM  ==== <PATERN VULN MODULE> ====
+:test_vuln_modulename
+	setlocal
+	set MODULE_NAME=TEST_MODULENAME
+	
+	
+	
+
+	:end_test_vuln_modulename
+		call :error_log_module "%MODULE_NAME%" "Error when calling the module"
+		endlocal
+		EXIT /B -1
+
+
+REM  === </PATERN VULN MODULE > ==== 
 
 REM ==========================  SECONDARY MODULES ========================== 	
 

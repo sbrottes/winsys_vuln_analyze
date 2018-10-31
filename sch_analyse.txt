@@ -1,0 +1,29 @@
+      <Command>C:\Windows\System32\cmd.exe</Command>
+      <Command>C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe</Command>
+      <Command>C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\UpdaterStartupUtility.exe</Command>
+      <Command>"C:\Program Files\CCleaner\CCleaner.exe"</Command>
+      <Command>C:\Windows\System32\cmd.exe</Command>
+      <Command>C:\Program Files (x86)\Opera\launcher.exe</Command>
+      <Command>D:\Programme\SnmpB\snmpb.exe</Command>
+      <Command>C:\Program Files (x86)\CGN\AIV Network$\DOSBox\dosbox.exe</Command>
+      <Command>C:\Windows\system32\pcalua.exe</Command>
+      <Command>C:\Program Files (x86)\Apple Software Update\SoftwareUpdate.exe</Command>
+      <Command>%ProgramFiles%\Common Files\Microsoft Shared\Office15\OLicenseHeartbeat.exe</Command>
+      <Command>C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeC2RClient.exe</Command>
+      <Command>C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeC2RClient.exe</Command>
+      <Command>C:\Program Files (x86)\Microsoft Office\root\VFS\ProgramFilesCommonX86\Microsoft Shared\Office16\sdxhelper.exe</Command>
+      <Command>C:\Program Files (x86)\Microsoft Office\root\Office16\officebackgroundtaskhandler.exe</Command>
+      <Command>C:\Program Files (x86)\Microsoft Office\root\Office16\officebackgroundtaskhandler.exe</Command>
+      <Command>"C:\Program Files\Microsoft Office\Office15\msoia.exe"</Command>
+      <Command>C:\Program Files (x86)\Microsoft Office\root\Office16\msoia.exe</Command>
+      <Command>"C:\Program Files\Microsoft Office\Office15\msoia.exe"</Command>
+      <Command>C:\Program Files (x86)\Microsoft Office\root\Office16\msoia.exe</Command>
+      <Command>%windir%\system32\compattel\DiagTrackRunner.exe</Command>
+      <Command>%windir%\system32\CompatTelRunner.exe</Command>
+      <Command>%windir%\system32\compattelrunner.exe</Command>
+      <Command>%windir%\system32\rundll32.exe</Command>
+      <Command>%SystemRoot%\System32\wsqmcons.exe</Command>
+      <Command>%windir%\system32\defrag.exe</Command>
+      <Command>%windir%\system32\rundll32.exe</Command>
+      <Command>%windir%\system32\DFDWiz.exe</Command>
+      <Command>%windir%\System32\LocationNotifications.exe</Command>

@@ -1,0 +1,29 @@
+[PROTECTED][TEST_SCHEDULED_TASKS]C:\Windows\System32\cmd.exe
+[PROTECTED][TEST_SCHEDULED_TASKS]C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+[PROTECTED][TEST_SCHEDULED_TASKS]C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\UpdaterStartupUtility.exe
+[PROTECTED][TEST_SCHEDULED_TASKS]C:\Program Files\CCleaner\CCleaner.exe
+[PROTECTED][TEST_SCHEDULED_TASKS]C:\Windows\System32\cmd.exe
+[PROTECTED][TEST_SCHEDULED_TASKS]C:\Program Files (x86)\Opera\launcher.exe
+[PROTECTED][TEST_SCHEDULED_TASKS]D:\Programme\SnmpB\snmpb.exe
+[PROTECTED][TEST_SCHEDULED_TASKS]C:\Program Files (x86)\CGN\AIV Network$\DOSBox\dosbox.exe
+[PROTECTED][TEST_SCHEDULED_TASKS]C:\Windows\system32\pcalua.exe
+[PROTECTED][TEST_SCHEDULED_TASKS]C:\Program Files (x86)\Apple Software Update\SoftwareUpdate.exe
+[PROTECTED][TEST_SCHEDULED_TASKS]C:\Program Files\Common Files\Microsoft Shared\Office15\OLicenseHeartbeat.exe
+[PROTECTED][TEST_SCHEDULED_TASKS]C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeC2RClient.exe
+[PROTECTED][TEST_SCHEDULED_TASKS]C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeC2RClient.exe
+[PROTECTED][TEST_SCHEDULED_TASKS]C:\Program Files (x86)\Microsoft Office\root\VFS\ProgramFilesCommonX86\Microsoft Shared\Office16\sdxhelper.exe
+[PROTECTED][TEST_SCHEDULED_TASKS]C:\Program Files (x86)\Microsoft Office\root\Office16\officebackgroundtaskhandler.exe
+[PROTECTED][TEST_SCHEDULED_TASKS]C:\Program Files (x86)\Microsoft Office\root\Office16\officebackgroundtaskhandler.exe
+[PROTECTED][TEST_SCHEDULED_TASKS]C:\Program Files\Microsoft Office\Office15\msoia.exe
+[PROTECTED][TEST_SCHEDULED_TASKS]C:\Program Files (x86)\Microsoft Office\root\Office16\msoia.exe
+[PROTECTED][TEST_SCHEDULED_TASKS]C:\Program Files\Microsoft Office\Office15\msoia.exe
+[PROTECTED][TEST_SCHEDULED_TASKS]C:\Program Files (x86)\Microsoft Office\root\Office16\msoia.exe
+[PROTECTED][TEST_SCHEDULED_TASKS]C:\Windows\system32\compattel\DiagTrackRunner.exe
+[PROTECTED][TEST_SCHEDULED_TASKS]C:\Windows\system32\CompatTelRunner.exe
+[PROTECTED][TEST_SCHEDULED_TASKS]C:\Windows\system32\compattelrunner.exe
+[PROTECTED][TEST_SCHEDULED_TASKS]C:\Windows\system32\rundll32.exe
+[PROTECTED][TEST_SCHEDULED_TASKS]C:\Windows\System32\wsqmcons.exe
+[PROTECTED][TEST_SCHEDULED_TASKS]C:\Windows\system32\defrag.exe
+[PROTECTED][TEST_SCHEDULED_TASKS]C:\Windows\system32\rundll32.exe
+[PROTECTED][TEST_SCHEDULED_TASKS]C:\Windows\system32\DFDWiz.exe
+[PROTECTED][TEST_SCHEDULED_TASKS]C:\Windows\System32\LocationNotifications.exe
